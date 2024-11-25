@@ -3,7 +3,7 @@ import {UserContextProvider} from "./UserContext";
 import Routes from "./Routes";
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:4040';
+  axios.defaults.baseURL = 'https://chat-app-backend-flame-gamma.vercel.app/';
   axios.defaults.withCredentials = true;
   return (
     <UserContextProvider>
